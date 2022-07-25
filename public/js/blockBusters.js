@@ -2,7 +2,7 @@ let block1 = document.getElementById('block-1').innerHTML
 let parent = document.getElementById('blocks')
 
 function goAway(x){
-    x.style.display = "none";
+    x.style.visibility = "hidden";
 }
 
 for (let i = 2; i <= 100; i++){
