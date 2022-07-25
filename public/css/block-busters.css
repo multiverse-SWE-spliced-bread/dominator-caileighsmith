@@ -1,4 +1,11 @@
+#blocks{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .red-block {
+  display: flex;
+
   background: darkred;
   width: 30px;
   height: 30px;
