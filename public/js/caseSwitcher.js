@@ -16,9 +16,9 @@ function sarc(){
     for (item in String(text)){
         if (text[item] != ''){
             if (item % 2 == 0){
-                str = str + text[item].toLowerCase()
-            }else{
                 str = str + text[item].toUpperCase()
+            }else{
+                str = str + text[item].toLowerCase()
             }
         }
     }
